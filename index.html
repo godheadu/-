@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="pageTitle">Наш проект ко Дню независимости Республики Казахстан — Меновновская средняя школа</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Декоративный фон -->
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <svg class="kazakh-ornament top-left" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M60 10C75 10 85 25 85 40C85 55 70 60 60 60C50 60 35 55 35 40C35 25 45 10 60 10ZM60 110C45 110 35 95 35 80C35 65 50 60 60 60C70 60 85 65 85 80C85 95 75 110 60 110ZM10 60C10 45 25 35 40 35C55 35 60 50 60 60C60 70 55 85 40 85C25 85 10 75 10 60ZM110 60C110 75 95 85 80 85C65 85 60 70 60 60C60 50 65 35 80 35C95 35 110 45 110 60Z" stroke="currentColor" stroke-width="2.5"/>
+    </svg>
+    <svg class="kazakh-ornament bottom-right" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M60 10C75 10 85 25 85 40C85 55 70 60 60 60C50 60 35 55 35 40C35 25 45 10 60 10ZM60 110C45 110 35 95 35 80C35 65 50 60 60 60C70 60 85 65 85 80C85 95 75 110 60 110ZM10 60C10 45 25 35 40 35C55 35 60 50 60 60C60 70 55 85 40 85C25 85 10 75 10 60ZM110 60C110 75 95 85 80 85C65 85 60 70 60 60C60 50 65 35 80 35C95 35 110 45 110 60Z" stroke="currentColor" stroke-width="2.5"/>
+    </svg>
+  </div>
+
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-emblem" aria-hidden="true">
+          <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="18" cy="18" r="17" fill="#00AFCA" fill-opacity="0.14" stroke="#00AFCA" stroke-width="1.5"/>
+            <circle cx="18" cy="18" r="7" fill="#FEC50C"/>
+            <path d="M18 5V8M18 28V31M5 18H8M28 18H31M8.8 8.8L10.9 10.9M25.1 25.1L27.2 27.2M27.2 8.8L25.1 10.9M10.9 25.1L8.8 27.2" stroke="#FEC50C" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="school-name" data-i18n="schoolName">Меновновская средняя школа</span>
+          <span class="school-sub" data-i18n="headerSub">Творческий проект учеников</span>
+        </div>
+      </div>
+
+      <div class="lang-switcher" role="group" aria-label="Переключатель языка">
+        <button type="button" class="lang-btn active" data-lang="ru">RU</button>
+        <button type="button" class="lang-btn" data-lang="kk">ҚАЗ</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Основной контент -->
+  <main class="main">
+    <!-- Главный экран (Hero) -->
+    <section class="hero reveal">
+      <div class="container hero-inner">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span data-i18n="heroBadge">16 декабря · День независимости Республики Казахстан</span>
+        </div>
+
+        <h1 class="hero-title" data-i18n="heroTitle">
+          Наш проект ко Дню независимости Республики Казахстан 🇰🇿
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="heroSubtitle">
+          Меновновская средняя школа · 8 «В» класс
+        </p>
+
+        <p class="hero-caption" data-i18n="heroCaption">
+          Специальный медиапроект, созданный учениками 8 «В» класса с любовью к Родине, уважением к её истории, культуре и достижениям независимого Казахстана.
+        </p>
+
+        <div class="ornament-divider" aria-hidden="true">
+          <span></span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2L12 2Z" fill="#00AFCA"/>
+          </svg>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок видеороликов -->
+    <section class="videos-section" id="videos">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" data-i18n="videosTitle">
+            Посмотрите видео по нашему проекту
+          </h2>
+          <p class="section-description" data-i18n="videosDescription">
+            Мы подготовили видеоролики на казахском и русском языках. Выберите удобный вариант и посмотрите нашу работу.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Карточка 1: Казахский язык -->
+          <article class="video-card card-kz reveal">
+            <div class="card-top">
+              <div class="flag-badge" aria-hidden="true">🇰🇿</div>
+              <span class="platform-pill platform-ig">Instagram Reels</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="kzCardTitle">Видео на казахском языке</h3>
+              <p class="card-text" data-i18n="kzCardDesc">
+                Праздничный видеоролик на государственном языке, посвящённый независимости, единству и будущему нашей страны.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://www.instagram.com/reel/DNjBRQIoxXn/?jplx=ejNsdHQyYWNtaDJ0"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+              >
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span data-i18n="kzCardBtn">Смотреть в Instagram</span>
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Карточка 2: Русский язык -->
+          <article class="video-card card-ru reveal">
+            <div class="card-top">
+              <div class="flag-badge" aria-hidden="true">🇷🇺</div>
+              <span class="platform-pill platform-yt">YouTube</span>
+            </div>
+
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="ruCardTitle">Видео на русском языке</h3>
+              <p class="card-text" data-i18n="ruCardDesc">
+                Полная версия нашего школьного видеопроекта на русском языке о пути становления и процветания Республики Казахстан.
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <a
+                href="https://youtu.be/o5Z84Tco_t4?si=GEeHT-ZkI0dQFW0B"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary"
+              >
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor"></polygon>
+                </svg>
+                <span data-i18n="ruCardBtn">Смотреть на YouTube</span>
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-line"></div>
+      <p class="footer-text" data-i18n="footerText">
+        Меновновская средняя школа · 8 «В» класс
+      </p>
+      <p class="footer-sub" data-i18n="footerSub">
+        Ко Дню независимости Республики Казахстан 🇰🇿
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
